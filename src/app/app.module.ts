@@ -1,3 +1,4 @@
+import { MatIconModule, MatToolbarModule, MatButtonModule } from '@angular/material';
 import { PostListModule } from './blog/list/post-list.module';
 import { BlogModule } from './blog/blog.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +15,10 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     BlogModule,
-    PostListModule
+    PostListModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
